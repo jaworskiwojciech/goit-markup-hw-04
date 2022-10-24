@@ -199,13 +199,17 @@ header {
   color: var(--description-color);
 }
 .section-primary {
+  max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: var(--footer-section-color);
   background-image: url(/images/buisness-section-background.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: 50% 50%;
+  background-size: 1600px;
   padding: 200px 452px;
 }
 .header-primary {
@@ -219,7 +223,7 @@ header {
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: #ffffff;
-  /* margin: auto; */
+  margin: auto;
 }
 .section-secondary {
   display: flex;
