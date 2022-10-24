@@ -270,9 +270,15 @@ header {
   width: 170px;
   height: 92px;
 }
+.client-icon-background:hover {
+  border: 1px solid var(--blue-color);
+}
 .client-logo {
   width: 106px;
   height: 60.04px;
+}
+.client-logo:hover {
+  --color4: var(--blue-color);
 }
 .section-tertiary {
   display: flex;
