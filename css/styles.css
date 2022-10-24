@@ -14,7 +14,7 @@ body {
 }
 .container {
   width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 address {
   font-style: normal;
@@ -40,10 +40,10 @@ address {
   list-style-type: none;
   padding: 0px;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
   flex-wrap: wrap;
-  flex-basis: calc((100% - 60px) / 3);
+  /* flex-basis: calc((100% - 60px) / 3); */
   gap: 30px;
 }
 .list-item-box {
@@ -281,5 +281,5 @@ footer {
   gap: 9px;
 }
 .portfolio-main-container {
-  margin: 94px 215px;
+  margin: 94px;
 }
