@@ -203,6 +203,9 @@ header {
   flex-direction: column;
   align-items: center;
   background-color: var(--footer-section-color);
+  background-image: url(/images/buisness-section-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 200px 452px;
 }
 .header-primary {
