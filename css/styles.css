@@ -64,6 +64,7 @@ header {
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .nav-list {
   display: flex;
@@ -136,8 +137,14 @@ header {
   color: var(--contact-color);
   text-decoration: none;
 }
-.contact-item-header {
-  margin-right: 50px;
+.header-telephone,
+.header-email {
+  display: flex;
+  align-items: center;
+}
+.telephone,
+.envelope {
+  margin-right: 5px;
 }
 .contact-item:hover,
 .contact-item:focus {
