@@ -155,6 +155,9 @@ header {
   --color3: var(--blue-color);
 }
 .footer-style {
+  display: flex;
+}
+footer {
   background-color: var(--footer-section-color);
 }
 .service-header {
@@ -354,7 +357,8 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.social-background:hover {
+.social-background:hover,
+.footer-social-background:hover {
   background-color: var(--blue-color);
 }
 .instagram {
@@ -372,4 +376,30 @@ footer {
 .linkedin {
   width: 20px;
   height: 20px;
+}
+.join-us {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer-social {
+  margin-left: 70px;
+}
+.footer-social-inner {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+.footer-social-background {
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
