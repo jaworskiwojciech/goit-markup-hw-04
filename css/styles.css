@@ -6,6 +6,7 @@
   --white-background: #ffffff;
   --main-font-color: #212121;
   --description-color: #757575;
+  --main-image-linear-gradient: rgba(47, 48, 58, 0.4);
 }
 
 body {
@@ -251,7 +252,7 @@ footer {
 .section-secondary {
   display: flex;
   justify-content: space-evenly;
-  padding-block: 94px;
+  /* padding-block: 94px; */
   margin: 0;
 }
 .header-secondary {
@@ -301,7 +302,7 @@ footer {
 .section-tertiary {
   display: flex;
   justify-content: space-between;
-  padding: 0px;
+  padding: 0px 0px 94px 0px;
   margin: 0px;
 }
 .header-tertiary {
