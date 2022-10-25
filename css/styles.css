@@ -341,3 +341,35 @@ footer {
   height: 120px;
   background-color: var(--gray-background);
 }
+.team-social {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+.social-background {
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-background:hover {
+  background-color: var(--blue-color);
+}
+.instagram {
+  width: 20px;
+  height: 20px;
+}
+.twitter {
+  width: 20px;
+  height: 20px;
+}
+.facebook {
+  width: 20px;
+  height: 20px;
+}
+.linkedin {
+  width: 20px;
+  height: 20px;
+}
