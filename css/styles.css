@@ -150,6 +150,10 @@ header {
 .contact-item:focus {
   color: var(--blue-color);
 }
+.header-email:hover,
+.header-telephone:hover {
+  --color3: var(--blue-color);
+}
 .footer-style {
   background-color: var(--footer-section-color);
 }
