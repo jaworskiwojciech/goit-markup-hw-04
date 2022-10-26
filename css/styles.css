@@ -291,14 +291,15 @@ footer {
 }
 .client-icon-background:hover {
   border: 1px solid var(--blue-color);
+  --color4: var(--blue-color);
 }
 .client-logo {
   width: 106px;
   height: 60.04px;
 }
-.client-logo:hover {
+/* .client-logo:hover {
   --color4: var(--blue-color);
-}
+} */
 .section-tertiary {
   display: flex;
   justify-content: space-between;
@@ -365,6 +366,7 @@ footer {
 .social-background:hover,
 .footer-social-background:hover {
   background-color: var(--blue-color);
+  --color4: var(--white-background);
 }
 .instagram {
   width: 20px;
